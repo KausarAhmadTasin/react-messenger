@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* Friend messenge list */
+.list-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin: 1rem auto;
+}
+
+.list-head-icoc {
+  color: #0887ff;
+  font-size: 1.8rem;
+}
+.list-head-icoc2 {
+  color: #0887ff;
+  font-size: 1.5rem;
+}
+.chat-list {
+  width: 25%;
+}
+.chat-list-icon {
+  width: 20px;
+}
+
+.list-input {
+  width: 16rem;
+  height: 1rem;
+  background-color: #f5f7f9;
+  border-radius: 0.3rem;
+  border-style: none;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  outline: none;
+  margin: 0.8rem 2.1rem;
+}
+
+.single-chat {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+  align-items: center;
+}
+.chat-name-img {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.chat-img {
+  border-radius: 50%;
+}
+
+.last-txt {
+  color: rgb(123, 124, 124);
+}
+
+.chat-hr {
+  width: 80%;
+  margin-left: 4.3rem;
+}
+
+/* messege room */
+.chating-with {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.send-icon {
+  fill: #0887ff;
+  font-size: 3rem;
+}
+
+.chat-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.76rem 1rem;
+}
+
+.send-icon {
+  filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg);
+}
+
+.profile-detail-img {
+  border-radius: 50%;
+}
+
+.profile-chat-room {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-room {
+  width: 65%;
+}
+
+.preveous-chat {
+  height: 80vh;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.chat-title {
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.messege-box input {
+  width: 43rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border-style: none;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.4);
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.send-box {
+  display: flex;
+  align-items: center;
+}
+
+.chat-icons {
+  display: flex;
+  gap: 2rem;
+  color: #0887ff;
+  align-items: center;
+}
+
+.profile-detail {
+  margin: 6rem auto;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.profile-detail-icons {
+  display: flex;
+  font-size: 1.4rem;
+  gap: 2.5rem;
+  margin-top: 1.3rem;
+  color: #0887ff;
+}
+
+.profile-detail-icons p {
+  color: rgb(70, 63, 63);
+  font-size: 0.8rem;
+}
+
+#plus {
+  font-size: 1.7rem;
+}
+
+.list-input::placeholder {
+  text-align: center;
+}
