@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
-import App from "../../App";
+import App from "../App";
 import Messenger from "../Pages/Messenger";
 
 const routes = createBrowserRouter([
